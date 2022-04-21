@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func me() {
 	firstName := "JK"
 	var lastname string = "Tan"
 	birthYear := 1992

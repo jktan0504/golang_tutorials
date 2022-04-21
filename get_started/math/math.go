@@ -1,8 +1,8 @@
-package main
+package math
 
 import "fmt"
 
-func main() {
+func math() {
 	// pi
 	var pi float64 = 3.142
 	radius := 6

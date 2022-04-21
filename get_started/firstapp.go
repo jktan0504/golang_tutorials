@@ -1,6 +1,10 @@
 package main
 
-import "fmt" // format package
+import (
+	"fmt" // fmt format package
+
+	"github.com/jktan0504/get_started/variables"
+)
 
 func main() {
 	// string type
@@ -10,14 +14,14 @@ func main() {
 	// or
 	// var greetingText string = "Hello World from Golang !!!"
 	// or
-	greetingText := "Hello World from Golang !!!"
+	greetingText := variables.GreetingText
 	greetingText2 := "JK"
 
 	// int type
 	luckyNumber := 199
 	anotherNumber := luckyNumber * 6
 
-	fmt.Println(greetingText)
+	fmt.Println(variables.GreetingText)
 	fmt.Println(luckyNumber)
 	fmt.Println(anotherNumber)
 
