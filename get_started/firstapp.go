@@ -53,4 +53,8 @@ func main() {
 
 	abc := fmt.Sprintf("g1: %v", greetingText)
 	fmt.Println(abc)
+
+	// Note for String
+	// strings.Replace(text, "\n", "", -1) mac or linux
+	// strings.Replace(text, "\r\n", "", -1) window
 }
